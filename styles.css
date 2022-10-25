@@ -3,7 +3,8 @@ body {
   justify-content: center;
   height: 100vh;
   color: #373348;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
 }
 .main {
   margin: 2rem;
@@ -12,7 +13,7 @@ body {
 }
 h1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   font-style: italic;
   margin-bottom: 3rem;
   /* color: #959eb6; */
@@ -21,5 +22,9 @@ h1 {
 @media only screen and (min-width: 600px) {
   body {
     align-items: center;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2.7rem;
   }
 }
