@@ -2,20 +2,20 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
-  color: #352f4f;
+  color: #373348;
   font-size: 1.2rem;
 }
 .main {
-  margin: 3rem;
+  margin: 2rem;
   max-width: 800px;
   font-family: 'Merriweather', serif;
 }
 h1 {
-  font-family: sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.7rem;
   font-style: italic;
   margin-bottom: 3rem;
-  color: #959eb6;
+  /* color: #959eb6; */
 }
 
 @media only screen and (min-width: 600px) {
