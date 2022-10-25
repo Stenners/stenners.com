@@ -2,106 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Stenners - Anthony Stenmark - Solution Architect and Developer
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=block"
+      rel="stylesheet"
     />
-    <meta name="theme-color" content="#e2f3e4" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Anthony Stenmark - Front-end Developer</title>
-    <style>
-      :root {
-        --c1: #e2f3e4;
-        --c2: #46878f;
-        --base: 8px;
-      }
-      @media all and (min-width: 980px) {
-        :root {
-          --c1: #e2f3e4;
-          --c2: #46878f;
-          --base: 15px;
-        }
-      }
-      html,
-      body {
-        height: 100%;
-      }
-      body {
-        background-color: var(--c1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .logo {
-        display: flex;
-        justify-content: space-between;
-        width: calc(var(--base) * 30);
-        margin-left: -60px;
-        height: calc(var(--base) * 10);
-      }
-      .letter {
-        width: var(--base);
-        height: var(--base);
-      }
-      .s {
-        box-shadow: calc(var(--base) * 3) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 5) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 5) 0 var(--c2);
-      }
-      .t {
-        box-shadow: calc(var(--base) * 3) var(--base) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 5) 0 var(--c2);
-      }
-      .e {
-        box-shadow: calc(var(--base) * 3) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 5) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 5) 0 var(--c2);
-      }
-      .n {
-        box-shadow: calc(var(--base) * 2) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 5) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 5) 0 var(--c2);
-      }
-      .r {
-        box-shadow: calc(var(--base) * 2) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 4) calc(var(--base) * 2) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 3) calc(var(--base) * 3) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 4) 0 var(--c2),
-          calc(var(--base) * 2) calc(var(--base) * 5) 0 var(--c2);
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="logo">
-      <div class="letter s"></div>
-      <div class="letter t"></div>
-      <div class="letter e"></div>
-      <div class="letter n"></div>
-      <div class="letter n"></div>
-      <div class="letter e"></div>
-      <div class="letter r"></div>
-      <div class="letter s"></div>
+    <div class="main">
+      <h1>STENNERS</h1>
+      <p>
+        Also known as Anthony Stenmark; I'm a Digital Solution Architect and
+        technical team lead, with nearly 20 years development experience,
+        working across small businesses to large enterprise and government.
+      </p>
+      <p>
+        I'm currently architecting and delivering cutting-edge web apps,
+        integrated with headless CMS and e-commerce platforms.
+      </p>
+      <!-- TO DO - contact -->
     </div>
   </body>
 </html>
