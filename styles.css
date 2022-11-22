@@ -7,7 +7,7 @@ body {
   line-height: 1.8rem;
 }
 ::selection {
-  background: #30c5ff; /* WebKit/Blink Browsers */
+  background: #83dcff; /* WebKit/Blink Browsers */
 }
 h1 {
   font-family: 'Permanent Marker', cursive;
@@ -20,7 +20,7 @@ a {
   color: #373348;
 }
 a:hover {
-  color: #30c5ff;
+  color: #83dcff;
 }
 .main {
   margin: 2rem;
